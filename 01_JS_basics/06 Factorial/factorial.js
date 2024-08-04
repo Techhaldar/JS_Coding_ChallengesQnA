@@ -6,7 +6,7 @@
 // It should accept a single parameter, which is the number for which you want to calculate the factorial.
 // It should return the factorial of the number.
 
-// ************************ Answer - 6 ****************************
+// ************************ Answer-6 ****************************
 function factorial(n){
     let fact = 1;
     if(n<0){
