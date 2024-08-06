@@ -13,14 +13,14 @@
 
 // ********************** Answer-12 ***********************
 
-// function sumArray(arr) {
-//     let sum = 0;
-//     for (const element of arr) {
-//         sum = sum + element;
+function sumArray(arr) {
+    arr = arr.split(',').map(Number);
+    let sum = 0;
+    for (let element of arr) {
+        sum = sum + element;
+    }
+    return sum;
+}
 
-//     }
-//     return sum;
-// }
-
-// console.log(sumArray([2, 6, 7, 6, 2]))
+console.log(sumArray(prompt("enter the array:")))
 

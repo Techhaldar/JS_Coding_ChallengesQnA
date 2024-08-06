@@ -25,22 +25,22 @@
 
 // ****************************  Method-2  ******************************
 
-// function reverseString(str) {
-//     let splitstring = str.split('');
-//     let reverseArray = splitstring.reverse('')
-//     let joinArray = reverseArray.join('')
-//     return joinArray;
-// }
+function reverseString(str) {
+    let splitstring = str.split('');
+    let reverseArray = splitstring.reverse('')
+    let joinArray = reverseArray.join('')
+    return joinArray;
+}
 
-// console.log(reverseString("ratin"))
+console.log(reverseString("ratin"))
 
-// shortHandCode
-// function reverseString (str) {
-//     let reverseStr = str.split('').reverse('').join('')
-//     return reverseStr;
-// }
+shortHandCode
+function reverseString(str) {
+    let reverseStr = str.split('').reverse('').join('')
+    return reverseStr;
+}
 
-// console.log(reverseString(prompt("enter the string:")))
+console.log(reverseString(prompt("enter the string:")))
 
 
 

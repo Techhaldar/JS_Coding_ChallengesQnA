@@ -1,4 +1,4 @@
-// ********************* Question - 2  **********************
+// ********************* Question - 5  **********************
 
 // Question-2:
 // Write a JavaScript function called isPrime that takes a single number as an argument and returns true if the number is a prime number and false otherwise.
@@ -8,7 +8,7 @@
 // It should accept a single parameter.
 // It should return true if the number is prime and false otherwise.
 
-// ************************ Answer - 2 ************************
+// ************************ Answer - 5 ************************
 function isPrime(num) {
     if (num <= 1) {
         return false;
