@@ -9,15 +9,38 @@
 
 //  ************************ Answer - 3 ************************
 
- function reverseString(str){
-     let reverseStr = "";
-     for(let i= str.length - 1; i>=0; i--){
-         reverseStr = reverseStr + str[i];
-     }
-     return reverseStr;
- }
+// **************************  Method-1 *******************************
+//  function reverseString(str){
+//      let reverseStr = "";
+//      for(let i= str.length - 1; i>=0; i--){
+//          reverseStr = reverseStr + str[i];
+//      }
+//      return reverseStr;
+//  }
 
- let userInput = prompt("enter the string to reverse");
- let finalOutput = reverseString(userInput);
+//  let userInput = prompt("enter the string to reverse");
+//  let finalOutput = reverseString(userInput);
 
- alert(finalOutput);
+//  alert(finalOutput);
+
+// ****************************  Method-2  ******************************
+
+// function reverseString(str) {
+//     let splitstring = str.split('');
+//     let reverseArray = splitstring.reverse('')
+//     let joinArray = reverseArray.join('')
+//     return joinArray;
+// }
+
+// console.log(reverseString("ratin"))
+
+// shortHandCode
+// function reverseString (str) {
+//     let reverseStr = str.split('').reverse('').join('')
+//     return reverseStr;
+// }
+
+// console.log(reverseString(prompt("enter the string:")))
+
+
+
