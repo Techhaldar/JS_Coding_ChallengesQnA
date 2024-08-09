@@ -13,7 +13,7 @@
 
 // ********************** Answer-13 ***********************
 function findSecondLargest(arr) {
-    let largest = -Infinity; 
+    let largest = -Infinity;
     let secondLargest = -Infinity;
     arr = arr.split(' ').map(Number);
 

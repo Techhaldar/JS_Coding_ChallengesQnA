@@ -1,0 +1,59 @@
+.main {
+    margin-top: 100px;
+
+}
+
+.calculator {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.container,
+.operation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(220, 216, 216);
+}
+
+div .oper,
+div .num {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    padding: 8px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.numColor {
+    background-color: rgb(211, 221, 207);
+}
+
+.opColor {
+    background-color: rgb(223, 227, 184);
+
+}
+
+.result {
+    margin: 20px auto;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid black;
+    text-align: right;
+    font-size: 30px;
+    height: 50px;
+    color: rgb(21, 20, 20);
+    background-color: #CDD3DD;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
