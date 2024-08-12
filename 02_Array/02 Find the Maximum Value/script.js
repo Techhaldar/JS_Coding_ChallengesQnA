@@ -27,12 +27,7 @@ function maxValue(value){
     if(value.length === 0){
         return 'No numbers provided';
     }
-    for (const element of value) {
-        if(element > num){
-            num = element;
-        }
-    }
-    return num;
-};
+    return Math.max(...value);
+}
 
 // console.log(maxValue([1, 5, 8, 9, 5, 7, 6, 4]));
