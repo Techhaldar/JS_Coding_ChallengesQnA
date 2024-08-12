@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(243, 236, 157);
+
+}
+
+#container {
+    width: 450px;
+    border: 2px solid red;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 14px;
+    background-color: rgb(234, 221, 81);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#inputNumbers {
+    padding: 4px;
+    font-size: 12px;
+}
+
+button {
+    margin: 8px;
+    padding: 6px 28px 6px 28px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.result{
+    border: 1px solid red;
+    /* display: inline-block; */
+    padding: 8px;
+    width: 200px;
+    margin: auto;
+
+}
