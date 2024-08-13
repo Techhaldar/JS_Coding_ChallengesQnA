@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    text-align: center;
+}
+
+#container{
+    align-content: center ;
+    width: 700px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+    background-color: yellow;
+    color: red;
+}
+
+#Heading{
+    font-size: 38px;
+}
+
+#UserInput{
+    font-size: 20px;
+    padding: 8px;
+    color: gray;
+    margin: 12px;
+}
+
+button{
+    margin: 12px;
+    padding: 12px 18px ;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+
+#result{
+    border: 2px solid gray;
+    width: 490px;
+    margin: auto;
+    height: 28px;
+    margin-top: 30px;
+}
