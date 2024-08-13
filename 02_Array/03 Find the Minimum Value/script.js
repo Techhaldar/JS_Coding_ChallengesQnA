@@ -1,3 +1,16 @@
+//  ******************** Question-03 *********************
+// Question:
+// Write a function that takes an array of numbers and returns the minimum value.
+
+// Requirements:
+
+// Input: An array of numbers.
+// Output: The minimum number in the array.
+// Example Usage:
+// console.log(findMin([4, 2, 9, -1, 5])); // Output: -1
+
+// ********************** Answer-03 ***********************
+
 function minNum () {
     const inputNumbers = document.querySelector('#inputNumbers').value;
     // const result = document.querySelector('.result');

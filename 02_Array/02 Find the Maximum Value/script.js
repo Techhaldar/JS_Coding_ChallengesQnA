@@ -1,4 +1,4 @@
-//  ******************** Question-01 *********************
+//  ******************** Question-02 *********************
 // Write a function that takes an array of numbers and returns the maximum value.
 
 // Requirements:
@@ -9,7 +9,7 @@
 // console.log(findMax([1, 3, 7, 0, -2]));  Output: 7
 
 
-// ********************** Answer-01 ***********************
+// ********************** Answer-02 ***********************
 
 function maxNum () {
     const inputNumbers = document.querySelector('#inputNumbers').value;

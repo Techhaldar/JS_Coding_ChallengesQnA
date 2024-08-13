@@ -5,7 +5,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
 }
 
 #container {
@@ -30,7 +29,6 @@ h1 {
 #inputNumbers {
     padding: 4px;
     font-size: 18px;
-
 }
 
 button {
@@ -50,7 +48,6 @@ button:hover {
 
 .result {
     border: 1px solid red;
-    /* display: inline-block; */
     padding: 8px;
     width: 400px;
     margin: auto;
