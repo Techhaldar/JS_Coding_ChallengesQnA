@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#colorBtn {
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: red;
+    }
+    &:active{
+        background-color: green;
+    }
+}
