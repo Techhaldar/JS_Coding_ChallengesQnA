@@ -1,4 +1,4 @@
-//  ******************** Question-02 *********************
+//  ******************** Question-05 *********************
 // Prevent Default Form Submission
 // Question:
 // Create a form with a submit button that, when clicked, does not submit the form but instead displays an alert.
@@ -15,7 +15,7 @@
 </form> */
 
 
-// ********************** Answer-02 ***********************
+// ********************** Answer-05 ***********************
 // Method-1
 const submit = document.querySelector("button")
 
