@@ -17,11 +17,14 @@
 
 document.addEventListener('keydown', (event) => {
         //  (`Key pressed: ${event.key}`);
+        
          document.querySelector("#key").innerHTML = (`${event.key}`);
          
          document.querySelector("#code").innerHTML = (`${event.code}`);
 
          document.querySelector("#keyCode").innerHTML = (`${event.keyCode}`);
      });
+
+
 
 
