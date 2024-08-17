@@ -5,8 +5,9 @@
     justify-content: center;
     font-size: 23px;
     padding: 18px;
+    cursor: pointer;
     &:hover{
-        color: green;
+        color: rgb(235, 5, 5);
         background-color: yellow;
     }
 }

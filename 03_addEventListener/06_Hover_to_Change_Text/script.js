@@ -18,3 +18,7 @@ const hoverText = document.querySelector('#hoverText');
 hoverText.addEventListener('mouseover', () => {
     hoverText.innerHTML = "Thanks for hovering";
 });
+
+hoverText.addEventListener('mouseout', () => {
+    hoverText.innerHTML = 'Hover over me?'
+})
