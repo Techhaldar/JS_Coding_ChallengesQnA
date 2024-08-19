@@ -21,8 +21,3 @@ changeTextContent('text', 'newText')
 
 // Short Method
 // document.querySelector("#text").innerHTML = 'New Text'
-
-
-
-
-
