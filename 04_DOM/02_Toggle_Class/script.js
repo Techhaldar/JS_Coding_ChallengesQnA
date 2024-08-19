@@ -1,4 +1,4 @@
-//  ******************** Question-01 *********************
+//  ******************** Question-02 *********************
 // Toggle Class
 // Question: Write a function toggleClass that adds a class to an element if it doesn't have it and removes it if it does.
 // Requirements: The function should take two arguments: the element's id and the class name.
@@ -9,7 +9,7 @@
     toggleClass('box', 'active');
 </script> */
 
-// ********************** Answer-01 ***********************
+// ********************** Answer-02 ***********************
 
 function toggleClass(box, active) {
     const element = document.getElementById(id);
