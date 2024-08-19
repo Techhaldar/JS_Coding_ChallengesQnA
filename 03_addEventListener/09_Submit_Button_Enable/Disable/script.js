@@ -21,5 +21,5 @@ const agreeCheck = document.getElementById('agreeCheck');
 const submitBtn = document.getElementById('submitBtn');
 
 agreeCheck.addEventListener('change', () => {
-    submitBtn.disabled = !agreeCheck.checked;
+    submitBtn.disabled = agreeCheck.checked;
 });
