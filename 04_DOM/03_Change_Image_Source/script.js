@@ -10,7 +10,13 @@
 // ********************** Answer-03 ***********************
 
 function changeImageSrc (id, newSrc){
-    document.querySelector(id).src = newSrc;
+    document.getElementById(id).src = newSrc;
 }
+const button = document.querySelector('button');
 
-changeImageSrc('image', 'new.jpg');
+button.addEventListener('click', () =>{
+    changeImageSrc('image', 'new.jpg');
+    
+})
+
+
