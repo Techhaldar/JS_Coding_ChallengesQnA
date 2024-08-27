@@ -13,9 +13,9 @@
 // console.log('Generated OTP:', otp);  // Example Output: Generated OTP: 482913
 
 // ********************** Answer-04 ***********************
-function OTP () {
+function OTP() {
     let count = ""
-    for(let i = 0; i<4; i++){
+    for (let i = 0; i < 4; i++) {
         const num = Math.floor(Math.random() * 10)
         count = count + num;
     }
@@ -23,3 +23,4 @@ function OTP () {
 }
 
 console.log(OTP())
+
