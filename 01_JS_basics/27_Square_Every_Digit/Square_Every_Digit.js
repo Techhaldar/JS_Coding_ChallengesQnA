@@ -13,20 +13,27 @@
 // ********************** Answer - 27 ***********************
 
 // mathod-1
-// const squareDigits = number => {
-//     let count = ""
-//     let num = number.toString().split('')
-//     // console.log(num)
-//     for (const digit of num) {
-//         count += digit * digit;
-//     }
-//     console.log(count);
-// }
+const squareDigits = number => {
+    let count = ""
+    let num = number.toString().split('')
+    // console.log(num)
+    for (const digit of num) {
+        count += digit * digit;
+    }
+    console.log(count);
+}
 
-// squareDigits(2552);
+squareDigits(2552);
 
 // mathod-2
 
-const squareDigits = num => {
-    
+const squareDigit = num => {
+    return Number(
+        num
+            .toString()
+            .split('')
+            .map(e => e * e)
+            .join('')
+    )
 };
+console.log(squareDigit(1221))
