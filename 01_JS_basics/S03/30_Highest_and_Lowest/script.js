@@ -11,20 +11,18 @@
 //   console.log(highAndLow('0 -214 542')); // '542 -214'
 
 // ********************** Answer - 30 ***********************
-const userInput = document.querySelector("#userInput").value;
 const btn = document.querySelector("#btn");
 const output = document.querySelector(".box");
 
 const highAndLow = numbers => {
     const arr = numbers.split(' ').map(Number);
     return `${Math.max(...arr)} ${Math.min(...arr)}`
-
 }
 
-
 btn.addEventListener('click', () =>{
+    const userInput = document.querySelector("#userInput").value;
     const result = highAndLow(userInput);
     output.textContent = result;
 });
 
-console.log(highAndLow('1 8 3 4 5 6'));
+// console.log(highAndLow('1 8 3 4 5 6'));
